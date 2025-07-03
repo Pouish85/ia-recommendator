@@ -5,7 +5,7 @@
 </div>
 
 <h1 align="center">IA Recommendator</h1>
-<p align="center">Votre compagnon IA pour des recommandations personnalisées, construit from scratch !</p>
+<p align="center">Your AI companion for personalized recommendations, built from scratch!</p>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Pouish85/ia-recommendator?color=56BEB8">
@@ -50,8 +50,8 @@ This project aims to build a personalized recommendation engine in Python, by im
 ## :sparkles: Project Phases ##
 
 * :white_check_mark: **Phase 1: Data Preparation & Similarity Measurement**
+* :white_check_mark: **Phase 2: Similarity-Based Recommender Engine (Collaborative Filtering)**
     * _Current Status: Completed_
-* :black_square_button: Phase 2: Similarity-Based Recommender Engine (Collaborative Filtering)
 * :black_square_button: Phase 3: Engine Evaluation
 * :black_square_button: Phase 4: Moving to ML Libraries & Advanced Algorithms
 * :black_square_button: Phase 5: (Optional) Simple Web Integration
@@ -84,8 +84,11 @@ source recommender_env/bin/activate
 # Install dependencies
 pip install pandas numpy
 
-# Run an example (e.g., Phase 1)
+# Run Phase 1 file
 python data_preparation.py
+
+# Run Phase 2
+python data_prediction.py
 ```
 
 ## :memo: License ##
