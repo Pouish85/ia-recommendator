@@ -53,8 +53,8 @@ This project aims to build a personalized recommendation engine in Python, by im
 * :white_check_mark: **Phase 2: Similarity-Based Recommender Engine (Collaborative Filtering)**
 * :white_check_mark: **Phase 3: Engine Evaluation**
 * :white_check_mark: **Phase 4: Content-Based Recommender Engine**
+* :white_check_mark: **Phase 5: Hybrid Recommender Engine**
     * _Current Status: Completed_
-* :black_square_button: Phase 5: Hybrid Recommender Engine
 * :black_square_button: Phase 6: Moving to ML Libraries & Advanced Algorithms
 * :black_square_button: Phase 7: (Optional) Simple Web Integration
 
@@ -97,6 +97,9 @@ python data_evaluation.py
 
 # Run Phase 4 file
 python data_content_based_prediction.py
+
+# Run Phase 5 file
+python data_hybrid_prediction.py
 ```
 
 ## :memo: License ##
