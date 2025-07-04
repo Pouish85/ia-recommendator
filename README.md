@@ -25,9 +25,9 @@
 
 <!-- Status -->
 
-<h4 align="center"> 
+<!--<h4 align="center"> 
 	🚧  IA Recommendator 🚀 Under construction...  🚧
-</h4> 
+</h4> -->
 
 <hr>
 
@@ -51,10 +51,11 @@ This project aims to build a personalized recommendation engine in Python, by im
 
 * :white_check_mark: **Phase 1: Data Preparation & Similarity Measurement**
 * :white_check_mark: **Phase 2: Similarity-Based Recommender Engine (Collaborative Filtering)**
+* :black_square_button: **Phase 3: Engine Evaluation**
     * _Current Status: Completed_
-* :black_square_button: Phase 3: Engine Evaluation
-* :black_square_button: Phase 4: Moving to ML Libraries & Advanced Algorithms
-* :black_square_button: Phase 5: (Optional) Simple Web Integration
+* :black_square_button: Phase 4: Content-Based Recommender Engine
+* :black_square_button: Phase 5: Moving to ML Libraries & Advanced Algorithms
+* :black_square_button: Phase 6: (Optional) Simple Web Integration
 
 ## :rocket: Technologies ##
 
@@ -87,8 +88,11 @@ pip install pandas numpy
 # Run Phase 1 file
 python data_preparation.py
 
-# Run Phase 2
+# Run Phase 2 file
 python data_prediction.py
+
+# Run Phase 3 file
+python data_evaluation.py
 ```
 
 ## :memo: License ##
