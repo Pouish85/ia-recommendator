@@ -54,9 +54,10 @@ This project aims to build a personalized recommendation engine in Python, by im
 * :white_check_mark: **Phase 3: Engine Evaluation**
 * :white_check_mark: **Phase 4: Content-Based Recommender Engine**
 * :white_check_mark: **Phase 5: Hybrid Recommender Engine**
+* :white_check_mark: **Phase 6: Moving to ML Libraries & Advanced Algorithms**
     * _Current Status: Completed_
-* :black_square_button: Phase 6: Moving to ML Libraries & Advanced Algorithms
-* :black_square_button: Phase 7: (Optional) Simple Web Integration
+* :black_square_button: Phase 7: Comparative Analysis of Recommendation Methods
+* :black_square_button: Phase 8: (Optional) Simple Web Integration
 
 ## :rocket: Technologies ##
 
@@ -65,6 +66,8 @@ The following tools were used in this project:
 - [Python3](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [NumPy](https://numpy.org/)
+- [Scikit-learn](https://scikit-learn.org/stable/) (for Phase 6)
+- [Scikit-surprise](https://surprise.readthedocs.io/en/stable/) (for Phase 6)
 
 ## :white_check_mark: Requirements ##
 
@@ -98,8 +101,21 @@ python data_evaluation.py
 # Run Phase 4 file
 python data_content_based_prediction.py
 
+# For Phase 5
+pip install -U scikit-learn
+
 # Run Phase 5 file
 python data_hybrid_prediction.py
+
+# For Phase 6
+# if your Python version is higher than 3.11, you need to change the environment to Python 3.11 for Scikit-surprise compatibility
+deactivate
+python3.11 -m venv recommender_py311_env
+source recommender_py311_env/bin/activate
+pip install -U pandas numpy<2 scikit-learn scikit-surprise
+
+# Run Phase 6 file
+python data_advanced_algorithms_prediction.py
 ```
 
 ## :memo: License ##
